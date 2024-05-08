@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+     tools:context="com.example.myapplication.MainActivity">
+
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Enviar"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:gravity='center'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Petición de material"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/bed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="70dp"
+        android:gravity='center'
+        android:text="Camas"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/bedInput"
+        android:layout_marginTop="61dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/square_background"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="150dp"
+        android:gravity='center'
+        android:text="Mesas"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/tableInput"
+        android:layout_marginTop="141dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/square_background"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/chair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="230dp"
+        android:gravity='center'
+        android:text="Sillas"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/chairInput"
+        android:layout_marginTop="221dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/square_background"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/armchair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="310dp"
+        android:gravity='center'
+        android:text="Sillones"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/armchairInput"
+        android:layout_marginTop="301dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/square_background"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/clientInput"
+        android:layout_marginTop="381dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Número del cliente"
+        android:background="@drawable/square_background"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+</RelativeLayout>
